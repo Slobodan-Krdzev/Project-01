@@ -1,0 +1,1 @@
+Laggy transitions on hover / cards section
