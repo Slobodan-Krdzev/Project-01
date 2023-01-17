@@ -14,6 +14,11 @@ h1 {
   transition-duration: 0.35s;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
 /* BACKGROUND COLORS */
 .dark-background {
   background-color: #302f38 !important;
@@ -36,12 +41,13 @@ h1 {
   transform: scale(1.03);
 }
 
+/* FONTS */
+
 .font-size-small {
   font-size: 0.8rem;
 }
 
 /* ICONS */
-
 .fa-solid {
   color: white;
   z-index: 4;
@@ -98,6 +104,7 @@ nav .logo {
   color: #e8edf9;
   font-weight: 400;
 }
+
 /* filters */
 .filters {
   position: sticky;
@@ -115,19 +122,17 @@ nav .logo {
   box-shadow: 0px 2px 5px 2px rgba(50, 50, 50, 0.3);
 }
 
-.single-filter label {
+.single-filter {
   cursor: pointer;
   transition: background-color 0.5s ease-in-out;
 }
 
-.single-filter label:hover {
+.single-filter:hover {
   background-color: #b0afaf !important;
   color: #302f38 !important;
 }
 
 .filters label {
-  height: 100%;
-  width: 100%;
   color: white;
   cursor: pointer;
   text-align: justify;
@@ -145,6 +150,7 @@ nav .logo {
 .single-card {
   box-shadow: 0px 2px 5px 2px rgba(50, 50, 50, 0.3);
   border: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .single-card:hover {
@@ -187,6 +193,7 @@ label.error {
 .h1-form {
   font-size: 3rem;
 }
+
 /* MEDIA QUERY  */
 @media (min-width: 769px) {
   .navbar {
@@ -198,7 +205,7 @@ label.error {
     font-size: 0.6rem !important;
   }
 
-  
+
 }
 
 @media (max-width: 768px) {
@@ -242,19 +249,19 @@ label.error {
   .single-filter:nth-child(2) {
     border-left: none !important;
     border-right: none !important;
-    border-top:1px solid white;
-    border-bottom:1px solid white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
   }
 
   .cards-container {
     width: 100% !important;
   }
 
-  .single-item:hover{
+  .single-item:hover {
     transform: none;
   }
 
-  .card-img-top:hover{
+  .card-img-top:hover {
     transform: none;
   }
 

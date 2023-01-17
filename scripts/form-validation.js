@@ -1,12 +1,3 @@
-document.querySelector('#select').addEventListener('click', hideLabel);
-
-function hideLabel(){
-    if(document.querySelector('#labelOption').classList.contains('d-block')){
-        document.querySelector('#labelOption').classList.remove('d-block');
-        document.querySelector('#labelOption').classList.add('d-none');
-    }
-}
-
 let formBtn = document.querySelector('#formBtn').addEventListener('click', alignBtn)
 let btnRow = document.querySelector('#buttonRow');
 
