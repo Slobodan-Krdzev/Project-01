@@ -258,8 +258,7 @@ label.error {
   }
 
   .single-item {
-    display: none;
-					
+    display: none;		
   }
 
   .single-item:nth-child(-n + 6) {
@@ -272,10 +271,6 @@ label.error {
 
   .card-img-top:hover {
     transform: none;
-  }
-
-  .load-more-section{
-    display: block !important;
   }
 
   .form-footer {
