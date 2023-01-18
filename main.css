@@ -257,12 +257,25 @@ label.error {
     width: 100% !important;
   }
 
+  .single-item {
+    display: none;
+					
+  }
+
+  .single-item:nth-child(-n + 6) {
+    display: flex;
+  }
+
   .single-item:hover {
     transform: none;
   }
 
   .card-img-top:hover {
     transform: none;
+  }
+
+  .load-more-section{
+    display: block !important;
   }
 
   .form-footer {
