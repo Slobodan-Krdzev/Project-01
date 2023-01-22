@@ -179,8 +179,12 @@ form input::placeholder {
   font-style: italic;
 }
 
-form option:hover {
-  background-color: #b0afaf;
+form input:valid {
+  border: 4px solid #7ebc22;
+}
+
+form select:valid {
+  border: 4px solid #7ebc22;
 }
 
 label.error {
