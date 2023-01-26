@@ -56,35 +56,3 @@ $(function(){
     }
 })
 
-
-// function clearUrl(){
-//     var originalURL = window.location.href;
-//     var alteredURL = removeParam("color_id", originalURL);
-// }
-
-// let url = window.location.search;
-
-// let urlParameters = new URLSearchParams(url);
-
-// let firstPar = urlParameters.get('fullname');
-
-// console.log(url)
-// console.log(urlParameters)
-// console.log(firstPar)
-
-
-// var originalURL = window.location.href;
-
-// let splitUrl = originalURL.split('?');
-// console.log(originalURL)
-// console.log(splitUrl);
-
-// let params = splitUrl[1];
-
-// console.log(params)
-
-
-// if(originalURL.contains(splitUrl[1])){
-
-
-// }
