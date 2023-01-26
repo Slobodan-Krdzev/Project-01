@@ -97,12 +97,12 @@ nav .logo {
 
 .hovered {
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .hovered-siblings {
   color: #e8edf9;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /* filters */
