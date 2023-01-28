@@ -179,13 +179,6 @@ form input::placeholder {
   font-style: italic;
 }
 
-form input:valid {
-  border: 4px solid #7ebc22;
-}
-
-form select:valid {
-  border: 4px solid #7ebc22;
-}
 
 label.error {
   color: #eb3b3b;
